@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie/Book Recommendations</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Optional custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="#">Movie & Book Recommendations</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#movies">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#books">Books</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Discover Your Next Favorite Movie or Book</h1>
+            <p class="lead">Browse recommendations based on your interests.</p>
+            <div class="d-flex justify-content-center gap-3 mt-4">
+                <a href="#movies" class="btn btn-light btn-lg">Explore Movies</a>
+                <a href="#books" class="btn btn-outline-light btn-lg">Explore Books</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Movie Section -->
+    <section id="movies" class="container py-5">
+        <h2 class="text-center mb-4">Popular Movies</h2>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <!-- Movie Cards -->
+            <div class="col">
+                <div class="card shadow-lg">
+                    <img src="./images/bg1.jpg" class="card-img-top" alt="Summer End With Us">
+                    <div class="card-body">
+                        <h5 class="card-title">Summer End with Us</h5>
+                        <p class="card-text">A high-stakes action thriller that follows a former soldier who must
+                            confront his past while battling a dangerous conspiracy. As he fights to protect those he
+                            loves, he discovers dark secrets that could change everything.</p>
+                        <a href="#" class="btn btn-primary w-100">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg">
+                    <img src="images/bg2.jpg" class="card-img-top" alt="The Last Wish">
+                    <div class="card-body">
+                        <h5 class="card-title">The Last Wish</h5>
+                        <p class="card-text">A romantic drama about two strangers who meet by chance and embark on a
+                            life-changing journey. As their relationship deepens, they must navigate obstacles that
+                            challenge their bond and test their commitment to each other.</p>
+                        <a href="#" class="btn btn-primary w-100">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg">
+                    <img src="images/bg3.jpg" class="card-img-top" alt="Chronicles of Tomorrow">
+                    <div class="card-body">
+                        <h5 class="card-title">Chronicles of Tomorrow</h5>
+                        <p class="card-text">Set in a futuristic world where technology and humanity are intertwined,
+                            this sci-fi adventure explores the consequences of artificial intelligence. A group of
+                            rebels must stop a rogue AI from taking control of society before it's too late.</p>
+                        <a href="#" class="btn btn-primary w-100">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg">
+                    <img src="images/bg4.jpg" class="card-img-top" alt="The Lost Kingdom">
+                    <div class="card-body">
+                        <h5 class="card-title">The Lost Kingdom</h5>
+                        <p class="card-text">In a mystical kingdom, a young hero embarks on a quest to find a legendary
+                            artifact that could save the world. Along the way, they must face mythical creatures,
+                            treacherous landscapes, and powerful enemies, all while discovering their true destiny.</p>
+                        <a href="#" class="btn btn-primary w-100">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg">
+                    <img src="images/bg5.jpg" class="card-img-top" alt="Whispers in the Dark">
+                    <div class="card-body">
+                        <h5 class="card-title">Whispers in the Dark</h5>
+                        <p class="card-text">A group of friends travel to an isolated mansion for a weekend getaway, but
+                            things take a dark turn when they uncover hidden secrets and paranormal activity. As they
+                            try to escape, they realize the house may be haunted by a malevolent force.</p>
+                        <a href="#" class="btn btn-primary w-100">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg">
+                    <img src="images/bg6.jpg" class="card-img-top" alt="Laughter's Edge">
+                    <div class="card-body">
+                        <h5 class="card-title">Laughter's Edge</h5>
+                        <p class="card-text">A light-hearted comedy about a group of friends who accidentally find
+                            themselves caught up in an outrageous situation. With witty humor and hilarious mishaps,
+                            they navigate through their misadventures with heart and laughter.</p>
+                        <a href="#" class="btn btn-primary w-100">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg">
+                    <img src="images/bg7.jpg" class="card-img-top" alt="The Silent Witness">
+                    <div class="card-body">
+                        <h5 class="card-title">The Silent Witness</h5>
+                        <p class="card-text">A gripping historical drama based on true events, this movie tells the
+                            story of a brave individual who stood up against injustice during a pivotal moment in
+                            history. Their courage and sacrifice paved the way for change in a turbulent time.</p>
+                        <a href="#" class="btn btn-primary w-100">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg">
+                    <img src="images/bg8.jpg" class="card-img-top" alt="The Hero's Rise">
+                    <div class="card-body">
+                        <h5 class="card-title">The Hero's Rise</h5>
+                        <p class="card-text">When a new hero emerges with incredible powers, the world is thrown into
+                            chaos. With villains and allies alike vying for control, this thrilling superhero movie
+                            explores themes of power, responsibility, and the consequences of having extraordinary
+                            abilities.</p>
+                        <a href="#" class="btn btn-primary w-100">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg">
+                    <img src="images/bg9.jpg" class="card-img-top" alt="Quest for the Enchanted Stone">
+                    <div class="card-body">
+                        <h5 class="card-title">Quest for the Enchanted Stone</h5>
+                        <p class="card-text">A fun and colorful animated adventure that follows a group of unlikely
+                            heroes on a quest to save their world from an evil force. With catchy songs, memorable
+                            characters, and heartwarming moments, this film is perfect for viewers of all ages.</p>
+                        <a href="#" class="btn btn-primary w-100">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg">
+                    <img src="images/bg10.jpg" class="card-img-top" alt="Shadow of the Forgotten">
+                    <div class="card-body">
+                        <h5 class="card-title">Shadow of the Forgotten</h5>
+                        <p class="card-text">A tense mystery thriller about a detective trying to solve a series of
+                            bizarre crimes. With each clue that unravels, he gets closer to uncovering a deep conspiracy
+                            that could change the course of history forever.</p>
+                        <a href="#" class="btn btn-primary w-100">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg">
+                    <img src="images/bg11.jpg" class="card-img-top" alt="Movie 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Little women</h5>
+                        <p class="card-text">A tense mystery thriller about a detective trying to solve a series of
+                            bizarre crimes. With each clue that unravels, he gets closer to uncovering a deep conspiracy
+                            that could change the course of history forever</p>
+                        <a href="#" class="btn btn-primary w-100">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg">
+                    <img src="images/bg12.jpg" class="card-img-top" alt="Movie 1">
+                    <div class="card-body">
+                        <h5 class="card-title">happiness</h5>
+                        <p class="card-text">A tense mystery thriller about a detective trying to solve a series of
+                            bizarre crimes. With each clue that unravels, he gets closer to uncovering a deep conspiracy
+                            that could change the course of history forever.</p>
+                        <a href="#" class="btn btn-primary w-100">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat for more movies -->
+        </div>
+    </section>
+
+    <!-- Book Section -->
+    <section id="books" class="container py-5">
+        <h2 class="text-center mb-4">Popular Books</h2>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <!-- Book Cards -->
+            <div class="col">
+                <div class="card shadow-lg">
+                    <img src="images/book1.jpg" class="card-img-top" alt="Book 1">
+                    <div class="card-body">
+                        <h5 class="card-title">The Silent Observer</h5>
+                        <p class="card-text">A gripping mystery thriller about a quiet detective who uncovers a dangerous conspiracy while investigating a missing person case. As secrets unfold, his life is turned upside down.</p>
+                        <a href="#" class="btn btn-primary w-100">View Details</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card shadow-lg">
+                    <img src="images/book2.jpg" class="card-img-top" alt="Book 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Winds of Change</h5>
+                        <p class="card-text">A historical fiction novel set in the 18th century, telling the story of a young woman who challenges the traditional roles of society, becoming a symbol of revolution in her time.</p>
+                        <a href="#" class="btn btn-primary w-100">View Details</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card shadow-lg">
+                    <img src="images/book3.jpg" class="card-img-top" alt="Book 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Fading Echoes</h5>
+                        <p class="card-text">A heart-wrenching tale of love and loss, as a couple navigates through a tragic event that changes their lives forever, discovering the true meaning of resilience and hope.</p>
+                        <a href="#" class="btn btn-primary w-100">View Details</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card shadow-lg">
+                    <img src="images/book4.jpg" class="card-img-top" alt="Book 4">
+                    <div class="card-body">
+                        <h5 class="card-title">The Last Horizon</h5>
+                        <p class="card-text">A dystopian adventure that follows a group of survivors in a post-apocalyptic world, searching for the fabled Last Horizon—a place where humanity can start anew.</p>
+                        <a href="#" class="btn btn-primary w-100">View Details</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card shadow-lg">
+                    <img src="images/book5.jpg" class="card-img-top" alt="Book 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Through the Flames</h5>
+                        <p class="card-text">A story of a firefighter who must confront his deepest fears when he is caught in a deadly blaze. Along the way, he uncovers a hidden world of corruption that threatens everything he holds dear.</p>
+                        <a href="#" class="btn btn-primary w-100">View Details</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card shadow-lg">
+                    <img src="images/book6.jpg" class="card-img-top" alt="Book 6">
+                    <div class="card-body">
+                        <h5 class="card-title">The Forgotten Dream</h5>
+                        <p class="card-text">In this supernatural thriller, a woman discovers that her dreams are not just figments of her imagination, but glimpses into an alternate reality that could change the fate of both worlds.</p>
+                        <a href="#" class="btn btn-primary w-100">View Details</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card shadow-lg">
+                    <img src="images/book7.jpg" class="card-img-top" alt="Book 7">
+                    <div class="card-body">
+                        <h5 class="card-title">Shadows of the Past</h5>
+                        <p class="card-text">A psychological thriller where a man must confront his darkest memories from his past, unlocking secrets about his family and the traumatic events that shaped his present life.</p>
+                        <a href="#" class="btn btn-primary w-100">View Details</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card shadow-lg">
+                    <img src="images/book8.jpg" class="card-img-top" alt="Book 8">
+                    <div class="card-body">
+                        <h5 class="card-title">The Emerald Curse</h5>
+                        <p class="card-text">An adventurous treasure hunt takes a group of explorers deep into the jungles of South America, where they must battle not only nature but also the mysterious forces guarding an ancient emerald artifact.</p>
+                        <a href="#" class="btn btn-primary w-100">View Details</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card shadow-lg">
+                    <img src="images/book9.jpg" class="card-img-top" alt="Book 9">
+                    <div class="card-body">
+                        <h5 class="card-title">Echoes in the Storm</h5>
+                        <p class="card-text">A gripping, atmospheric novel set during a fierce storm, where a small town's secrets begin to surface. A sheriff must navigate through lies and betrayals to uncover the truth before it's too late.</p>
+                        <a href="#" class="btn btn-primary w-100">View Details</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card shadow-lg">
+                    <img src="images/book10.jpg" class="card-img-top" alt="Book 10">
+                    <div class="card-body">
+                        <h5 class="card-title">Whispers of the Sea</h5>
+                        <p class="card-text">A romantic fantasy set in a coastal town, where a woman with a mysterious connection to the sea must face an ancient prophecy that threatens to tear her world apart and change the course of history.</p>
+                        <a href="#" class="btn btn-primary w-100">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-lg">
+                    <img src="images/book11.jpg" class="card-img-top" alt="Book 11">
+                    <div class="card-body">
+                        <h5 class="card-title">A World Beyond</h5>
+                        <p class="card-text">A science fiction novel that takes readers on a journey to a distant galaxy, where a group of explorers discovers a planet with a civilization far more advanced than Earth's. They must decide whether to make contact or leave it untouched.</p>
+                        <a href="#" class="btn btn-primary w-100">View Details</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card shadow-lg">
+                    <img src="images/book12.jpg" class="card-img-top" alt="Book 12">
+                    <div class="card-body">
+                        <h5 class="card-title">The Veil of Secrets</h5>
+                        <p class="card-text">A historical mystery set in Victorian London, where a young detective must unravel a series of complex clues tied to a powerful family’s long-hidden secrets that could shake the city to its core.</p>
+                        <a href="#" class="btn btn-primary w-100">View Details</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Repeat for more books -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4 shadow-lg">
+        <p>&copy; 2025 Movie & Book Recommendations. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <script src="./app.js"></script>
+
+</body>
+
+</html>

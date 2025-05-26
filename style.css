@@ -1,0 +1,35 @@
+/* Hero Section */
+.hero {
+    background-image: url('./images/bg20.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+}
+
+/* Movie and Book Sections */
+.card img {
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover img {
+    transform: scale(1.1); /* Hover effect to enlarge the image */
+}
+
+.card-body {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: #ccc;
+}
+
+/* Button Hover Effects */
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
